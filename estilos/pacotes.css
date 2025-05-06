@@ -22,7 +22,7 @@
     margin: auto;
     border-collapse: collapse;
     font-size: 1.1rem;
-    background-color: var(--color-firstpage-btn);
+    background-color: var(--color-blue);
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0,0,0,0.3);
 }
@@ -30,7 +30,7 @@
 .tabela-pacotes th,
 .tabela-pacotes td {
     padding: 1rem;
-    border-bottom: 1px solid var(--color-table);
+    border-bottom: 1px solid var(--color-blue);
 }
 
 .tabela-pacotes thead {

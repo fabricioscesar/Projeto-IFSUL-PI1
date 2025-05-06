@@ -17,11 +17,21 @@
                 <li><a href="Contato.html">Contato</a></li>
             </ul>
         </nav>
-        <div class="foreground">
-            <h1>Explore o Mundo com a Gente!</h1>
-            <p>Descubra os melhores destinos turísticos, pacotes de viagem e dicas para a sua próxima aventura.</p>
-            <button class="btn-cta"><a href="paginas/Pacotes.html">Veja Nossos Planos</a></button>
-        </div>
+        <section class="fale-conosco">
+            <h1>Fale Conosco</h1>
+            <form class="form-contato" action="#" method="post">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" required>
+          
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+          
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+          
+              <button class="button" type="submit">Enviar</button>
+            </form>
+          </section>          
     </main>
 </body>
 </html>
