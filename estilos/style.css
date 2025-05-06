@@ -12,19 +12,19 @@
 body {
     background-color: var(--color-background);
     color: var(--color-white);
+    min-height: 100vh;
 }
 a {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--color-white);
 }
 /*--------Config Navbar--------*/
 .navbar {
     width: 100%;
     padding: 0.8rem;
-    position: absolute;
-    top: 0;
+    position: fixed;
+    z-index: 1;
 }
-
 .navbar ul {
     list-style: none;
     font-size: 1.2rem;
@@ -32,45 +32,7 @@ a {
 }
 .navbar li {
     padding: 0.5rem 1rem;
-    display: block;
 }
 .menu {
     margin-left: auto;
-}
-
-
-/*--------Config Hero-Section--------*/
-.principal {
-    position: relative;
-    min-height: 100vh;
-    background: linear-gradient(to bottom,
-    rgba(0, 0, 0, 0)0%,
-    rgba(0, 0, 0, 0.9)100%), url(../midia/paginaPrincipal.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.foreground{
-    padding: 35vh 15vh;
-    text-align: center;
-}
-.foreground h1 {
-    font-size: 3rem;
-    font-weight: 100;
-    padding-bottom: 2.5vh;
-}
-.foreground p {
-    font-size: 1.4rem;
-    font-weight: 100;
-    padding: 0 15vh;
-}
-
-.btn-cta{
-    border-style: none;
-    border-radius: 2rem;
-    background-color: #073569b2;
-    color: var(--color-white);
-    font-size: 1.025rem;
-    padding: 1rem 2rem;
-    margin: 1.5rem;
 }
