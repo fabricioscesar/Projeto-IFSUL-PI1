@@ -7,20 +7,20 @@
 }
 :root {
     --color-background: #111;
-    --color-white: #fff;
-    --color-blue: #8c540ac0;
+    --color-text: #fff;
+    --color-brown: #8c540ac0;
     --color-button: #694207b2;
     --color-table-head: #0000004d;
     --color-table-body: #b46e2db2;
 }
 body {
     background-color: var(--color-background);
-    color: var(--color-white);
+    color: var(--color-text);
     min-height: 100vh;
 }
 a {
     text-decoration: none;
-    color: var(--color-white);
+    color: var(--color-text);
 }
 h1 {
     font-size: 2.6rem;
@@ -49,7 +49,7 @@ h1 {
     border-style: none;
     border-radius: 2rem;
     background-color: var(--color-button);
-    color: var(--color-white);
+    color: var(--color-text);
     font-size: 1rem;
     font-weight: 600;
     padding: 1rem 2rem;
@@ -57,7 +57,7 @@ h1 {
     transition: 0.5s ease
 }
 button:hover {
-    background-color: var(--color-blue);
+    background-color: var(--color-brown);
     cursor: pointer;
 }
 /*--------Configuração Padrão do Conteudo de Texto--------*/
