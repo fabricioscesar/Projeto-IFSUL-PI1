@@ -6,12 +6,8 @@
     rgba(0, 0, 0, 0.9)100%), url(../midia/contato.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     min-height: 100vh;
-}
-.fale-conosco {
-    padding: 80px 0;
-    text-align: center;
 }
 .form-contato {
     max-width: 600px;

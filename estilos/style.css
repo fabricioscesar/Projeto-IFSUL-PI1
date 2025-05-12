@@ -26,7 +26,7 @@ h1 {
     font-size: 2.6rem;
     font-weight: 100;
 }
-/*--------Configuração da Navbar--------*/
+/*--------Configuração da Barra de Navegação--------*/
 .navbar {
     width: 100%;
     padding: 0.8rem;
@@ -44,7 +44,7 @@ h1 {
 .menu {
     margin-left: auto;
 }
-/*--------Configuração do Botão de Transição--------*/
+/*--------Configuração Padrão do Botão de Transição--------*/
 .button{
     border-style: none;
     border-radius: 2rem;
@@ -58,4 +58,22 @@ h1 {
 }
 button:hover {
     background-color: var(--color-blue);
+    cursor: pointer;
+}
+/*--------Configuração Padrão do Conteudo de Texto--------*/
+.foreground{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.foreground h1 {
+    font-size: 3rem;
+    font-weight: 100;
+}
+.foreground p {
+    font-size: 1.4rem;
+    font-weight: 100;
+    padding: 0.25rem 12rem;
 }
