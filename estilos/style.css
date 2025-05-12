@@ -8,10 +8,10 @@
 :root {
     --color-background: #111;
     --color-white: #fff;
-    --color-blue: #0a478cc0;
-    --color-button: #073569b2;
+    --color-blue: #8c540ac0;
+    --color-button: #694207b2;
     --color-table-head: #0000004d;
-    --color-table-body: #2d6cb4b2;
+    --color-table-body: #b46e2db2;
 }
 body {
     background-color: var(--color-background);
