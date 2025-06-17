@@ -8,7 +8,7 @@
     <link rel="icon" href="midia/favicon.png" type="image/x-icon">
     <title>Belas Artes</title>
 </head>
-<body>
+<body onload="iniciarTroca()">
     <main class="sobre">
         <nav class="navbar">
             <ul>
@@ -24,18 +24,11 @@
             </video>
             <div class="foreground">
                 <h1>Sobre Nós</h1>
-                <p>
-                    A Escola de Música Belas Artes é uma escola de música voltada para o meio clássico e erudito,
-                    com formação preparatória para estudantes que planejam ingressar em orquestras.
-                </p>
-                <p>Oferecemos cursos especializados para todos os níveis, desde iniciantes até músicos mais experientes. 
-                    Se você deseja aprender piano, violino, teoria musical ou até mesmo regência, temos a opção perfeita para você. 
-                    Nossos cursos são projetados para combinar aprendizado teórico e prático, 
-                    garantindo uma experiência completa e enriquecedora. 
-                </p>
+                <p id="descricao"></p>
                 <a href="Contato.html"><button class="button">Fale Conosco</button></a>
             </div>
         </section>         
     </main>
+    <script src="../codigos/sobre.js"></script>
 </body>
 </html>

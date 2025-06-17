@@ -1,4 +1,7 @@
 /*--------Config da Sessão Sobre Nós--------*/
+#descricao {
+  transition: opacity 0.5s ease;
+}
 .sobre-nos {
     position: relative;
     background: linear-gradient(to bottom,
@@ -15,7 +18,7 @@
     z-index: -1;
 }
 .foreground{
-    height: 400px;
+    height: 250px;
     width: 1000px;
 }
 .foreground h1{
