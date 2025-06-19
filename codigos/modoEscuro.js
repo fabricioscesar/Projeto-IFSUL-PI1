@@ -1,7 +1,7 @@
 function alternarTema() {
   const body = document.body;
   const botao = document.getElementById("botao-tema");
-  const backImage = document.getElementsByClassName("principal")[0];
+  const backImage = document.getElementById("principal");
 
   body.classList.toggle("escuro");
 
@@ -24,7 +24,7 @@ window.addEventListener("load", () => {
   const temaSalvo = localStorage.getItem("tema");
   const body = document.body;
   const botao = document.getElementById("botao-tema");
-  const backImage = document.getElementsByClassName("principal")[0];
+  const backImage = document.getElementById("principal");
 
   if (temaSalvo === "escuro") {
     body.classList.add("escuro");

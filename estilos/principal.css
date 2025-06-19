@@ -1,5 +1,5 @@
 /*--------Config da Sessão principal--------*/
-.principal {
+#principal {
     position: relative;
     background: linear-gradient(to bottom,
     rgba(0, 0, 0, 0)0%,
