@@ -77,3 +77,33 @@ button:hover {
     font-weight: 100;
     padding: 0.25rem 12rem;
 }
+#botao-tema {
+  font-size: 1.4rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+}
+body {
+  background-color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.escuro {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+.navbar {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+body.escuro .navbar {
+  background-color: black;
+}
+
+li > button, li > button:hover{
+    border-style: none;
+    background-color: #00000000;
+}

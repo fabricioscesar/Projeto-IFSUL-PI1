@@ -1,3 +1,4 @@
+window.addEventListener("load", iniciarTroca);
 function iniciarTroca() {
   const frases = [ //array para guardar as frases que serão mostradas na página
     "A Escola de Música Belas Artes é uma escola de música voltada para o meio clássico e erudito, com formação preparatória para estudantes que planejam ingressar em orquestras.",
@@ -7,6 +8,7 @@ function iniciarTroca() {
   
   const p = document.getElementById("descricao");
   let i = 0;
+  p.textContent = frases[i];
   
   // Troca a cada 10 segundos
   setInterval(() => {
