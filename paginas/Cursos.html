@@ -13,15 +13,16 @@
         <nav class="navbar">
             <ul>
                 <li><a href="../">Início</a></li>
-                <li class="menu"><a href="Cursos.html">Cursos</a></li>
-                <li><a href="Sobre.html">Sobre Nós</a></li>
-                <li><a href="Contato.html">Contato</a></li>
+                <li class="menu"><a href="../paginas/Login.html">Cadastro</a></li>
+                <li><a href="../paginas/Cursos.html">Cursos</a></li>
+                <li><a href="../paginas/Sobre.html">Sobre Nós</a></li>
+                <li><a href="../paginas/Contato.html">Contato</a></li>
                 <li><button id="botao-tema" onclick="alternarTema()">🌙</button></li>
             </ul>
         </nav>
         <section class="foreground">
             <h1>Cursos Disponíveis</h1>
-            <table id="tabela-cursos" class="tabela-cursos">
+            <table id="tabela-cursos" class="tabela-cursos" onmouseleave="trocarCursos()">
               <thead>
                 <tr>
                   <th>Curso</th>
@@ -47,11 +48,11 @@
                 </tr>
               </tbody>
             </table>
-            <button class="button" onclick="trocarCursos()">Outros Cursos</button>
             <a href="Sobre.html"><button class="button">Saiba Mais -></button></a>
           </section>          
     </main>
     <script src="../codigos/cursos.js"></script>
     <script src="../codigos/modoEscuro.js"></script>
+    <script src="../codigos/popup.js"></script>
 </body>
 </html>

@@ -1,0 +1,37 @@
+/* Estilo base da página */
+.cadastro {
+    position: relative;
+    background: linear-gradient(to bottom, #222, #111);
+    color: #fff;
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Container do formulário */
+.form-cadastro {
+  background-color: #1e1e1e;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.6);
+}
+
+/* Linhas de input lado a lado */
+.form-row {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0rem;
+}
+
+/* Campos de texto */
+input, button {
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 1rem;
+}
+input {   padding: 0.8rem; }
+/* Mensagem de sucesso */
+.form-cadastro p {
+  font-size: 1.2rem;
+  text-align: center;
+}

@@ -13,15 +13,16 @@
         <nav class="navbar">
             <ul>
                 <li><a href="../">Início</a></li>
-                <li class="menu"><a href="Cursos.html">Cursos</a></li>
-                <li><a href="Sobre.html">Sobre Nós</a></li>
-                <li><a href="Contato.html">Contato</a></li>
+                <li class="menu"><a href="../paginas/Login.html">Cadastro</a></li>
+                <li><a href="../paginas/Cursos.html">Cursos</a></li>
+                <li><a href="../paginas/Sobre.html">Sobre Nós</a></li>
+                <li><a href="../paginas/Contato.html">Contato</a></li>
                 <li><button id="botao-tema" onclick="alternarTema()">🌙</button></li>
             </ul>
         </nav>
         <section class="foreground">
             <h1>Fale Conosco</h1>
-            <form class="form-contato" action="#" method="post">
+            <form class="form-contato" action="#" method="post" onsubmit="enviarFormulario()">
                 <div class="form-row">
                   <input type="text" name="nome" placeholder="Nome" required>
                   <input type="tel" name="telefone" placeholder="Telefone" required>
@@ -47,5 +48,6 @@
           </section>               
     </main>
     <script src="../codigos/modoEscuro.js"></script>
+    <script src="../codigos/contato.js"></script>
 </body>
 </html>

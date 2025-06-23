@@ -28,9 +28,6 @@ function trocarCursos() {
   const titulo = document.querySelector(".foreground h1");
   const tabela = document.getElementById("tabela-cursos").querySelector("tbody");
 
-  // fade-out
-  secao.style.opacity = 0;
-
   setTimeout(() => {
     // atualiza imagem e título
     i = (i + 1) % fundos.length;
@@ -49,8 +46,5 @@ function trocarCursos() {
       tr.appendChild(td2);
       tabela.appendChild(tr);
     }
-
-    // fade-in
-    secao.style.opacity = 1;
   }, 500);
 }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/style.css">    
+    <link rel="stylesheet" href="../estilos/login.css">
+    <link rel="icon" href="midia/favicon.png" type="image/x-icon">
+    <title>Belas Artes</title>
+</head>
+<body>
+    <main class="cadastro">
+        <nav class="navbar">
+            <ul>
+                <li><a href="../">Início</a></li>
+                <li class="menu"><a href="../paginas/Login.html">Cadastro</a></li>
+                <li><a href="../paginas/Cursos.html">Cursos</a></li>
+                <li><a href="../paginas/Sobre.html">Sobre Nós</a></li>
+                <li><a href="../paginas/Contato.html">Contato</a></li>
+                <li><button id="botao-tema" onclick="alternarTema()">🌙</button></li>
+            </ul>
+        </nav>
+        <section class="foreground">
+            <h1>Cadastre-se</h1>
+              <form class="form-cadastro" action="#" method="post" onsubmit="return cadastrarUsuario()">
+                <div class="form-row">
+                  <input type="text" name="nome" placeholder="Nome completo" required>
+                  <input type="text" name="usuario" placeholder="Nome de usuário" required>
+                </div>
+
+                <input type="email" name="email" placeholder="Email" required class="full-width">
+
+                <div class="form-row">
+                  <input type="password" name="senha" placeholder="Senha" required>
+                  <input type="password" name="confirmar" placeholder="Confirmar senha" required>
+                </div>
+
+                <button class="button" type="submit">Cadastrar</button>
+              </form>
+        </section>               
+    </main>
+    <script src="../codigos/modoEscuro.js"></script>
+    <script src="../codigos/login.js"></script>
+</body>
+</html>
