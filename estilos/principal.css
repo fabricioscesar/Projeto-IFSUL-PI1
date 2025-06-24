@@ -7,6 +7,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    transition: background-image 1s ease-in-out;
     min-height: 100vh;
 }
 .foreground{

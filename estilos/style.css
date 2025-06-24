@@ -29,7 +29,7 @@ h1 {
 /*--------Configuração da Barra de Navegação--------*/
 .navbar {
     width: 100%;
-    padding: 0.8rem;
+    padding: 0.4rem;
     position: fixed;
     z-index: 1;
 }
