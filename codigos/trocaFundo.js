@@ -1,11 +1,12 @@
 let indice = 0;
 function trocaFundo() {
   const imagens = [
-    "url('../midia/principal2.jpg')",
-    "url('../midia/principal3.jpg')",
-    "url('../midia/principal4.jpg')",
-    "url('../midia/principal.jpg')"
+    "url('/Projeto-IFSUL-PI1/midia/principal2.jpg')",
+    "url('/Projeto-IFSUL-PI1/midia/principal3.jpg')",
+    "url('/Projeto-IFSUL-PI1/midia/principal4.jpg')",
+    "url('/Projeto-IFSUL-PI1/midia/principal.jpg')"
   ];
+
 
   const main = document.getElementById("principal");
 
