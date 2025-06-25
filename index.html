@@ -9,7 +9,7 @@
     <title>Belas Artes</title>
 </head>
 <body>
-    <main id="principal">
+    <main id="principal" ondblclick="trocaFundo()">
         <nav class="navbar">
             <ul>
                 <li><a href="index.html">Início</a></li>
@@ -27,9 +27,32 @@
                 sua paixão em música!</p>
             <a href="paginas/Cursos.html"><button class="button">Conheça nossos cursos</button></a>
         </div>
+        <dialog id="popup-tutorial">
+            <div class="popup-conteudo">
+                <button id="fechar-popup">✖</button>
+                <h2>Leia-me antes de verificar o site!!!</h2>
+                <p>Esta mensagem tem como intuito orientar a verificação dos 8 eventos corretamente</p>
+                <br>
+                <ul>
+                    <li><strong>1º evento:</strong> Tutorial em formato Pop up (tipo onload)</li>
+                    <li><strong>2º evento:</strong> Modo Escuro (tipo onclick no emoji de sol/lua)</li>
+                    <p>altera o estilo da lista(navbar, efeito fica fixo em todas as páginas)</p>
+                    <li><strong>3º evento:</strong> Pop up contato (tipo onclick no canto inferior direito)</li>
+                    <p>redireciona para a página de contato</p>
+                    <li><strong>4º evento:</strong> troca a imagem de fundo(tipo double click na imagem de fundo)</li>
+                    <li><strong>5º evento:</strong> troca a imagem de fundo e conteudo da tabela(tipo onmouseleave na tabela)</li>
+                    <li><strong>6º evento:</strong> troca a frase principal(tipo onload)</li>
+                    <li><strong>7º evento:</strong> exclui o formulário após enviado e cria uma mensagem de agradecimento na página de contato(tipo onsubmit)</li>
+                    <li><strong>8º evento:</strong> exclui o formulário após enviado e cria uma mensagem de agradecimento na página de cadastro(tipo onsubmit)</li>
+                    <br><br>
+                    <p>desde já agradeço sua paciência e lhe desejo uma ótima experiência!</p>
+                </ul>
+            </div>
+        </dialog>
     </main>
     <script src="codigos/modoEscuro.js"></script>
     <script src="codigos/popup.js"></script>
     <script src="codigos/trocaFundo.js"></script>
+    <script src="codigos/tutorial.js"></script>
 </body>
 </html>

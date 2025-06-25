@@ -107,3 +107,50 @@ li > button, li > button:hover{
     border-style: none;
     background-color: #00000000;
 }
+/*--------Configuração do Evento de Tutorial Pop-Up --------*/
+#popup-tutorial {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    border: none;
+    border-radius: 8px;
+    max-width: 600px;
+    height: 80vh;
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    animation: fadeIn 0.4s ease;
+}
+
+.popup-conteudo {
+    padding: 20px;
+    position: relative;
+    font-family: sans-serif;
+}
+.popup-conteudo > ul{
+    list-style: none;
+    width: 70%;
+    margin: auto;
+}
+
+#fechar-popup {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+::backdrop {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
